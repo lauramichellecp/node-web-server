@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "full-stack-developer-server-node",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web Server for the Tuiter application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Laura Calderon",
+  "license": "ISC",
+  "homepage": "https://github.com/lauramichellecp/full-stack-developer-server-node#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
