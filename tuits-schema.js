@@ -1,14 +1,11 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 const schema = mongoose.Schema({
   tuit: String,
   likes: Number,
+  dislikes: Number,
+  comments: Number,
+  retuits: Number,
   handle: String,
-  stats: {
-    comments: Number,
-    retuits: Number,
-    likes: Number,
-    dislikes: Number
-  },
   time: String,
   avatarImg: String,
   logoImg: String,
